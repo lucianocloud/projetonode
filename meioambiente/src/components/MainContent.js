@@ -34,6 +34,22 @@ const MainContent = () => {
           <img src={image4} alt="Environmental Image 4" className="flex-image" />
         </div>
       </section>
+      <section className="additional-content">
+        <h2>Ações para Preservar o Meio Ambiente</h2>
+        <p>
+          Existem várias ações que podemos adotar para ajudar a preservar o meio ambiente. Aqui estão algumas delas:
+        </p>
+        <ul>
+          <li><strong>Reduzir, Reutilizar, Reciclar:</strong> A prática dos 3Rs ajuda a diminuir a quantidade de lixo que produzimos.</li>
+          <li><strong>Economizar Água:</strong> Usar a água de forma consciente e evitar desperdícios é crucial.</li>
+          <li><strong>Conservar Energia:</strong> Desligar aparelhos eletrônicos quando não estiverem em uso e optar por fontes de energia renováveis.</li>
+          <li><strong>Utilizar Transportes Sustentáveis:</strong> Optar por caminhar, andar de bicicleta ou usar transporte público em vez de carros particulares.</li>
+          <li><strong>Plantar Árvores:</strong> As árvores ajudam a melhorar a qualidade do ar e a regular o clima.</li>
+        </ul>
+        <p>
+          Ao adotar essas práticas, estamos contribuindo para um futuro mais sustentável e saudável para todos.
+        </p>
+      </section>
     </main>
   );
 };
